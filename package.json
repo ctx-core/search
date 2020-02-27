@@ -32,7 +32,7 @@
 		"@ctx-core/array": "^15.5.8",
 		"@ctx-core/logger": "^3.1.12",
 		"@ctx-core/object": "^8.0.2",
-		"svelte": "^3.19.0"
+		"svelte": "^3.19.1"
 	},
 	"devDependencies": {
 		"typescript": "^3.8.2"

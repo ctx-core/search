@@ -50,33 +50,31 @@ export function _store__search_result(
 }
 /**
  * Returns a `up__item__search` function, which sets `__idx` & `__item` to the previous value
- * @param {Store} __search_result
+ * @param {Store} __a1
  * @param {Store} __item
  * @param {Store} __idx
  * @returns {Function}
  */
-export function _up__item__search({ __search_result, __idx, }) {
+export function _up__item__search({ __a1, __idx, }) {
 	return ()=>{
 		log(`${logPrefix}|_up__item__search|()`)
-		const search_result = get(__search_result)
-		const data = (search_result && search_result.data) || []
-		const idx = _idx__prev(data.length, get(__idx) || 0)
+		const a1 = get(__a1) || []
+		const idx = _idx__prev(a1.length, get(__idx) || 0)
 		__idx.set(idx)
 	}
 }
 /**
  * Returns a `down__item__search` function, which sets `__idx` & `__item` to the next value
- * @param {Store} __search_result
+ * @param {Store} __a1
  * @param {Store} __item
  * @param {Store} __idx
  * @returns {Function}
  */
-export function _down__item__search({ __search_result, __idx, }) {
+export function _down__item__search({ __a1, __idx, }) {
 	return ()=>{
 		log(`${logPrefix}|_down__item__search|()`)
-		const search_result = get(__search_result)
-		const data = (search_result && search_result.data) || []
-		const idx = _idx__next(data.length, get(__idx) || 0)
+		const a1 = get(__a1) || []
+		const idx = _idx__next(a1.length, get(__idx) || 0)
 		__idx.set(idx)
 	}
 }

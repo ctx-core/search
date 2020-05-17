@@ -1,6 +1,6 @@
 {
 	"name": "@ctx-core/search",
-	"version": "9.0.5",
+	"version": "9.0.6",
 	"description": "ctx-core search",
 	"main": "store.js",
 	"module": "store.js",

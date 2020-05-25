@@ -1,6 +1,6 @@
 {
 	"name": "@ctx-core/search",
-	"version": "9.0.8",
+	"version": "9.0.9",
 	"description": "ctx-core search",
 	"type": "module",
 	"main": "store.js",
@@ -30,9 +30,9 @@
 		"access": "public"
 	},
 	"dependencies": {
-		"@ctx-core/array": "^15.5.18",
-		"@ctx-core/logger": "^3.1.15",
-		"@ctx-core/object": "^8.0.11",
+		"@ctx-core/array": "^15.5.19",
+		"@ctx-core/logger": "^3.1.16",
+		"@ctx-core/object": "^8.0.12",
 		"svelte": "^3.22.3"
 	},
 	"devDependencies": {

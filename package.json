@@ -2,7 +2,6 @@
 	"name": "@ctx-core/search",
 	"version": "9.0.10",
 	"description": "ctx-core search",
-	"type": "module",
 	"main": "store.js",
 	"module": "store.js",
 	"types": "store.ts",

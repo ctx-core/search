@@ -1,7 +1,5 @@
 import { derived, get, Readable } from 'svelte/store'
 import { _idx__next, _idx__prev } from '@ctx-core/array'
-import { log } from '@ctx-core/logger'
-const logPrefix = '@ctx-core/search/store.js'
 type Opts__store__search_result = {
 	__query:Readable<any>
 	_data:({ query: any })=>Promise<any>
@@ -57,7 +55,6 @@ export function _store__search_result(
  */
 export function _up__item__search({ __a1, __idx, }) {
 	return ()=>{
-		log(`${logPrefix}|_up__item__search|()`)
 		const a1 = get(__a1) || []
 		const idx = _idx__prev(a1.length, get(__idx) || 0)
 		__idx.set(idx)
@@ -72,7 +69,6 @@ export function _up__item__search({ __a1, __idx, }) {
  */
 export function _down__item__search({ __a1, __idx, }) {
 	return ()=>{
-		log(`${logPrefix}|_down__item__search|()`)
 		const a1 = get(__a1) || []
 		const idx = _idx__next(a1.length, get(__idx) || 0)
 		__idx.set(idx)

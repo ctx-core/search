@@ -1,6 +1,6 @@
 {
 	"name": "@ctx-core/search",
-	"version": "9.0.47",
+	"version": "9.0.48",
 	"description": "ctx-core search",
 	"main": "./index.js",
 	"module": "./index.js",

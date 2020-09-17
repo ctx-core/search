@@ -1,41 +1,41 @@
 {
-	"name": "@ctx-core/search",
-	"version": "9.0.48",
-	"description": "ctx-core search",
-	"keywords": [
-		"ctx-core",
-		"search"
-	],
-	"homepage": "https://github.com/ctx-core/search#readme",
-	"bugs": {
-		"url": "https://github.com/ctx-core/search/issues"
-	},
-	"repository": {
-		"type": "git",
-		"url": "https://github.com/ctx-core/search/issues"
-	},
-	"license": "Apache-2.0",
-	"author": "Brian Takita",
-	"main": "./index.js",
-	"module": "./index.js",
-	"types": "./index.ts",
-	"scripts": {
-		"build": "npm run clean && npm run compile",
-		"clean": "rm -f tsconfig.tsbuildinfo",
-		"compile": "tsc -b",
-		"exec": "$@",
-		"prepublishOnly": "npm run compile"
-	},
-	"dependencies": {
-		"@ctx-core/array": "workspace:*",
-		"@ctx-core/object": "workspace:*",
-		"svelte": "^3.25.0"
-	},
-	"devDependencies": {
-		"typescript": "^4.0.2"
-	},
-	"publishConfig": {
-		"access": "public"
-	},
-	"gitHead": "e316b3cd97f74ea8215e66139228d0080d4eedb0"
+  "name": "@ctx-core/search",
+  "version": "9.0.49",
+  "description": "ctx-core search",
+  "keywords": [
+    "ctx-core",
+    "search"
+  ],
+  "homepage": "https://github.com/ctx-core/search#readme",
+  "bugs": {
+    "url": "https://github.com/ctx-core/search/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ctx-core/search/issues"
+  },
+  "license": "Apache-2.0",
+  "author": "Brian Takita",
+  "main": "./index.js",
+  "module": "./index.js",
+  "types": "./index.ts",
+  "scripts": {
+    "build": "npm run clean && npm run compile",
+    "clean": "rm -f tsconfig.tsbuildinfo",
+    "compile": "tsc -b",
+    "exec": "$@",
+    "prepublishOnly": "npm run compile"
+  },
+  "dependencies": {
+    "@ctx-core/array": "workspace:*",
+    "@ctx-core/object": "workspace:*",
+    "svelte": "~3.25.1"
+  },
+  "devDependencies": {
+    "typescript": "^4.0.2"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "gitHead": "e316b3cd97f74ea8215e66139228d0080d4eedb0"
 }

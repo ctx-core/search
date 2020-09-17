@@ -2,7 +2,7 @@ import { derived, get, Readable } from 'svelte/store'
 import { _idx__next, _idx__prev } from '@ctx-core/array'
 type Opts__store__search_result = {
 	__query:Readable<any>
-	_data:({ query: any })=>Promise<any>
+	_data:({ query: unknown })=>Promise<any>
 	clear?:()=>void
 }
 export function _store__search_result(

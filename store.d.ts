@@ -1,7 +1,7 @@
 import { Readable } from 'svelte/store';
 declare type Opts__store__search_result = {
     __query: Readable<any>;
-    _data: ({ query: any }: {
+    _data: ({ query: unknown }: {
         query: any;
     }) => Promise<any>;
     clear?: () => void;

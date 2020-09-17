@@ -1,6 +1,6 @@
 {
   "name": "@ctx-core/search",
-  "version": "9.0.49",
+  "version": "9.0.50",
   "description": "ctx-core search",
   "keywords": [
     "ctx-core",
@@ -22,7 +22,7 @@
   "scripts": {
     "build": "npm run clean && npm run compile",
     "clean": "rm -f tsconfig.tsbuildinfo",
-    "compile": "tsc -b",
+    "compile": "./node_modules/.bin/tsc -b",
     "exec": "$@",
     "prepublishOnly": "npm run compile"
   },

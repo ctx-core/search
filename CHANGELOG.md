@@ -1,5 +1,11 @@
 # @ctx-core/search
 
+## 10.0.1
+
+### Patch Changes
+
+- @ctx-core/array@19.0.1
+
 ## 10.0.0
 
 ### Major Changes

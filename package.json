@@ -1,6 +1,6 @@
 {
 	"name": "@ctx-core/search",
-	"version": "10.0.11",
+	"version": "10.0.12",
 	"description": "ctx-core search",
 	"keywords": [
 		"ctx-core",
@@ -27,8 +27,8 @@
 		"prepublishOnly": "npm run compile"
 	},
 	"dependencies": {
-		"@ctx-core/array": "workspace:^19.0.10",
-		"@ctx-core/object": "workspace:^12.0.5",
+		"@ctx-core/array": "workspace:^19.0.11",
+		"@ctx-core/object": "workspace:^12.0.6",
 		"svelte": "3.26.0"
 	},
 	"devDependencies": {

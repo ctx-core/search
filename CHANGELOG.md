@@ -1,5 +1,11 @@
 # @ctx-core/search
 
+## 10.0.11
+
+### Patch Changes
+
+- @ctx-core/array@19.0.10
+
 ## 10.0.10
 
 ### Patch Changes

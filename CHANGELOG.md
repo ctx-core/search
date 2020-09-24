@@ -1,5 +1,13 @@
 # @ctx-core/search
 
+## 10.0.18
+
+### Patch Changes
+
+- Updated dependencies [undefined]
+  - @ctx-core/object@12.0.11
+  - @ctx-core/array@19.0.17
+
 ## 10.0.17
 
 ### Patch Changes

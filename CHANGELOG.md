@@ -1,5 +1,11 @@
 # @ctx-core/search
 
+## 10.0.24
+
+### Patch Changes
+
+- svelte: 3.28.0 -> 3.29.0
+
 ## 10.0.23
 
 ### Patch Changes

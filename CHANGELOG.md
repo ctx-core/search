@@ -1,5 +1,14 @@
 # @ctx-core/search
 
+## 10.0.25
+
+### Patch Changes
+
+- fix: tsc build issues
+- Updated dependencies [undefined]
+- Updated dependencies [undefined]
+  - @ctx-core/store@23.0.3
+
 ## 10.0.24
 
 ### Patch Changes

@@ -1,5 +1,15 @@
 # @ctx-core/search
 
+## 10.0.31
+
+### Patch Changes
+
+- typescript: ^4.0.3 -> ^4.0.5
+- Updated dependencies [undefined]
+  - @ctx-core/array@19.0.21
+  - @ctx-core/object@13.0.1
+  - @ctx-core/store@23.0.9
+
 ## 10.0.30
 
 ### Patch Changes

@@ -6,12 +6,12 @@ declare type Opts__store__search_result<S extends Readable<unknown>> = {
     }) => Promise<any>;
     clear?: () => void;
 };
-export declare type $search_result_type<Q extends unknown = unknown, D extends unknown[] = unknown[]> = {
+export interface $search_result_type<Q extends unknown = unknown, D extends unknown[] = unknown[]> {
     done: boolean;
     loading: boolean;
     query: Q;
     data?: D;
-};
+}
 export declare type search_result_type<Q extends unknown = unknown, D extends unknown[] = unknown[]> = Readable<$search_result_type<Q, D>>;
 export declare function _search_result_store<S extends Readable<unknown>>({ __query, _data, clear }: Opts__store__search_result<S>): search_result_type<unknown, unknown[]>;
 export declare const _store__search_result: typeof _search_result_store;
@@ -31,8 +31,8 @@ export declare function _up__item__search({ __a1, __idx, }: search_params_type):
  * @returns {Function}
  */
 export declare function _down__item__search({ __a1, __idx, }: search_params_type): () => void;
-export declare type search_params_type = {
+export interface search_params_type {
     __a1: Readable<unknown[]>;
     __idx: Writable<number>;
-};
+}
 export {};

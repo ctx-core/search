@@ -5,7 +5,7 @@ type Opts__store__search_result<S extends Readable<unknown>> = {
 	_data:({ query: unknown })=>Promise<any>
 	clear?:()=>void
 }
-export type $search_result_type<Q extends unknown = unknown, D extends unknown[] = unknown[]> = {
+export interface $search_result_type<Q extends unknown = unknown, D extends unknown[] = unknown[]> {
 	done:boolean
 	loading:boolean
 	query:Q
@@ -86,7 +86,7 @@ export function _down__item__search({ __a1, __idx, }: search_params_type) {
 		__idx.set(idx)
 	}
 }
-export type search_params_type = {
-	__a1: Readable<unknown[]>
-	__idx: Writable<number>
+export interface search_params_type {
+	__a1:Readable<unknown[]>
+	__idx:Writable<number>
 }

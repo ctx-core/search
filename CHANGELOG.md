@@ -1,5 +1,11 @@
 # @ctx-core/search
 
+## 11.0.0
+
+### Major Changes
+
+- \_down**item**search->\_down_search_item,\_up**item**search->\_up_search_item,Opts**store**search_result->search_result_opts_type,\_store\_\_search_result->\_search_result_store
+
 ## 10.1.7
 
 ### Patch Changes

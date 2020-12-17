@@ -1,5 +1,17 @@
 # @ctx-core/search
 
+## 11.0.1
+
+### Patch Changes
+
+- Updated dependencies [undefined]
+- Updated dependencies [undefined]
+- Updated dependencies [undefined]
+- Updated dependencies [undefined]
+  - @ctx-core/array@19.1.6
+  - @ctx-core/object@15.0.4
+  - @ctx-core/store@23.1.8
+
 ## 11.0.0
 
 ### Major Changes

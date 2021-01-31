@@ -1,61 +1,61 @@
 import { derived, get, Readable } from '@ctx-core/store'
 export function _search_result_store<I extends unknown = unknown, O extends unknown = unknown>(
 	{
-		__query,
-		_data,
-		clear
+		query, _data, clear
 	}:search_result_opts_type<I, O>
 ) {
-	const search_store = derived<Readable<I>, $search_result_type>(
-		__query,
+	const search_store = derived<Readable<I>, $search_result_store_type<I, O>>(
+		query,
 		(
-			query,
+			$query:I,
 			in_set
 		)=>{
-			const set = in_set as (value:$search_result_type)=>void
-			if (!query) {
+			const set = in_set as (value:$search_result_store_type)=>void
+			if (!$query) {
 				(clear || (()=>{
-					set({ done: true, loading: false, query, data: [] })
+					set(
+						{ done: true, loading: false, query, data: [] } as $search_result_store_type<I, O>
+					)
 				}))()
 				return
 			}
-			const previous_search = get(search_store) as $search_result_type
+			const previous_search:$search_result_store_type<I, O> = get(search_store)
 			const previous_query = previous_search && previous_search.query
-			if (previous_query === query) {
+			if (previous_query === $query) {
 				return
 			}
 			set({
 				done: false,
 				loading: true,
 				query,
-			})
+			} as $search_result_store_type<I, O>)
 			;(async ()=>{
-				const data = await _data({ query })
-				if (query === get(__query)) {
+				const data = await _data({ $query })
+				if ($query === get(query)) {
 					set({
 						done: true,
 						loading: false,
 						query,
 						data,
-					})
+					} as $search_result_store_type<I, O>)
 				}
 			})()
 		})
-	return search_store as search_result_type
+	return search_store as search_result_store_type
 }
 export interface search_result_opts_type<I extends unknown = unknown, O extends unknown = unknown> {
-	__query:Readable<I>
-	_data:({ query: I })=>Promise<O[]>
+	query:Readable<I>
+	_data:({ $query: I })=>Promise<O[]>
 	clear?:()=>void
 }
-export interface $search_result_type<Q extends unknown = unknown, D extends unknown[] = unknown[]> {
+export interface $search_result_store_type<I extends unknown = unknown, O extends unknown = unknown> {
 	done:boolean
 	loading:boolean
-	query:Q
-	data?:D
+	query:Readable<I>
+	data?:O[]
 }
-export interface search_result_type<Q extends unknown = unknown, D extends unknown[] = unknown[]>
-	extends Readable<$search_result_type<Q, D>> {}
+export interface search_result_store_type<I extends unknown = unknown, O extends unknown = unknown>
+	extends Readable<$search_result_store_type<I, O>> {}
 export {
 	_search_result_store as _store__search_result
 }

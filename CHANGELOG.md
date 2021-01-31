@@ -1,5 +1,11 @@
 # @ctx-core/search
 
+## 12.0.0
+
+### Major Changes
+
+- search_result_opts_type: \_\_query=>query
+
 ## 11.1.0
 
 ### Minor Changes

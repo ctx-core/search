@@ -1,5 +1,12 @@
 # @ctx-core/search
 
+## 11.1.0
+
+### Minor Changes
+
+- \_down_search_item,\_up_search_item,\_search_result_store: generics of data type
+- src directory
+
 ## 11.0.30
 
 ### Patch Changes

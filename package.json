@@ -1,6 +1,6 @@
 {
 	"name": "@ctx-core/search",
-	"version": "11.0.30",
+	"version": "11.1.0",
 	"description": "ctx-core search",
 	"keywords": [
 		"ctx-core",
@@ -16,9 +16,9 @@
 	},
 	"license": "Apache-2.0",
 	"author": "Brian Takita",
-	"main": "./index.js",
-	"module": "./index.js",
-	"types": "./index.ts",
+	"main": "./src/index.js",
+	"module": "./src/index.js",
+	"types": "./src/index.ts",
 	"scripts": {
 		"build": "npm run clean && npm run compile",
 		"clean": "rm -f tsconfig.tsbuildinfo",

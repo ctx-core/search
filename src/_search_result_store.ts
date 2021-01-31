@@ -1,12 +1,12 @@
 import { derived, get, Readable } from '@ctx-core/store'
-export function _search_result_store<S extends Readable<unknown>>(
+export function _search_result_store<I extends unknown = unknown, O extends unknown = unknown>(
 	{
 		__query,
 		_data,
 		clear
-	}:search_result_opts_type<S>
+	}:search_result_opts_type<I, O>
 ) {
-	const search_store = derived<S, $search_result_type>(
+	const search_store = derived<Readable<I>, $search_result_type>(
 		__query,
 		(
 			query,
@@ -43,9 +43,9 @@ export function _search_result_store<S extends Readable<unknown>>(
 		})
 	return search_store as search_result_type
 }
-export interface search_result_opts_type<S extends Readable<unknown>> {
-	__query:S
-	_data:({ query: unknown })=>Promise<any>
+export interface search_result_opts_type<I extends unknown = unknown, O extends unknown = unknown> {
+	__query:Readable<I>
+	_data:({ query: I })=>Promise<O[]>
 	clear?:()=>void
 }
 export interface $search_result_type<Q extends unknown = unknown, D extends unknown[] = unknown[]> {

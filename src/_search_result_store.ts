@@ -3,7 +3,7 @@ export function _search_result_store<I extends unknown = unknown, O extends unkn
 	{
 		query, _data, clear
 	}:search_result_opts_type<I, O>
-) {
+):search_result_store_type<I, O> {
 	const search_store = derived<Readable<I>, $search_result_store_type<I, O>>(
 		query,
 		(
@@ -41,7 +41,7 @@ export function _search_result_store<I extends unknown = unknown, O extends unkn
 				}
 			})()
 		})
-	return search_store as search_result_store_type
+	return search_store
 }
 export interface search_result_opts_type<I extends unknown = unknown, O extends unknown = unknown> {
 	query:Readable<I>

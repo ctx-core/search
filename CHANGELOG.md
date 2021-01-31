@@ -1,5 +1,11 @@
 # @ctx-core/search
 
+## 12.0.1
+
+### Patch Changes
+
+- fix: \_search_result_store: return type: search_result_opts_type<I, O>
+
 ## 12.0.0
 
 ### Major Changes

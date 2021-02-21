@@ -1,5 +1,13 @@
 # @ctx-core/search
 
+## 12.0.20
+
+### Patch Changes
+
+- @ctx-core/array@20.1.10
+- @ctx-core/object@17.0.8
+- @ctx-core/store@24.0.16
+
 ## 12.0.19
 
 ### Patch Changes

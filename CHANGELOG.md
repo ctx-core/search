@@ -1,5 +1,15 @@
 # @ctx-core/search
 
+## 12.0.36
+
+### Patch Changes
+
+- fix: npm run compile: tsc -b .
+- Updated dependencies [undefined]
+  - @ctx-core/array@20.2.1
+  - @ctx-core/object@17.4.1
+  - @ctx-core/store@24.1.14
+
 ## 12.0.35
 
 ### Patch Changes

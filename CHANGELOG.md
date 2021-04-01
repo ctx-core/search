@@ -1,5 +1,13 @@
 # @ctx-core/search
 
+## 12.0.39
+
+### Patch Changes
+
+- "svelte": 3.37.0
+- Updated dependencies [undefined]
+  - @ctx-core/store@24.1.17
+
 ## 12.0.38
 
 ### Patch Changes

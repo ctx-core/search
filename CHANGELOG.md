@@ -1,5 +1,14 @@
 # @ctx-core/search
 
+## 12.0.57
+
+### Patch Changes
+
+- update dependencies
+- Updated dependencies [undefined]
+  - @ctx-core/array@20.2.13
+  - @ctx-core/store@24.5.4
+
 ## 12.0.56
 
 ### Patch Changes

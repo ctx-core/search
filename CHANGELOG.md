@@ -1,5 +1,11 @@
 # @ctx-core/search
 
+## 12.0.53
+
+### Patch Changes
+
+- update dependencies
+
 ## 12.0.52
 
 ### Patch Changes

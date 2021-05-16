@@ -1,5 +1,15 @@
 # @ctx-core/search
 
+## 12.1.1
+
+### Patch Changes
+
+- fix: target: 2018: nodejs compatability
+- Updated dependencies [undefined]
+  - @ctx-core/array@20.3.1
+  - @ctx-core/object@17.6.1
+  - @ctx-core/store@24.8.1
+
 ## 12.1.0
 
 ### Minor Changes

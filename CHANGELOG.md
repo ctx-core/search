@@ -1,5 +1,15 @@
 # @ctx-core/search
 
+## 12.1.2
+
+### Patch Changes
+
+- .npmignore: + ~
+- Updated dependencies [undefined]
+  - @ctx-core/array@20.3.2
+  - @ctx-core/object@17.6.2
+  - @ctx-core/store@24.8.2
+
 ## 12.1.1
 
 ### Patch Changes

@@ -1,5 +1,15 @@
 # @ctx-core/search
 
+## 12.2.1
+
+### Patch Changes
+
+- .gitignore: - \*.js
+- Updated dependencies [undefined]
+  - @ctx-core/array@20.4.1
+  - @ctx-core/object@18.1.1
+  - @ctx-core/store@24.9.1
+
 ## 12.2.0
 
 ### Minor Changes

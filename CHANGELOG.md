@@ -1,5 +1,15 @@
 # @ctx-core/search
 
+## 12.1.10
+
+### Patch Changes
+
+- types: ./src/index.d.ts: address error TS2742 issue
+- Updated dependencies [undefined]
+  - @ctx-core/array@20.3.10
+  - @ctx-core/object@18.0.6
+  - @ctx-core/store@24.8.10
+
 ## 12.1.9
 
 ### Patch Changes

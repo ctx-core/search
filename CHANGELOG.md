@@ -1,5 +1,14 @@
 # @ctx-core/search
 
+## 12.3.1
+
+### Patch Changes
+
+- update dependencies
+- Updated dependencies [undefined]
+  - @ctx-core/object@18.2.1
+  - @ctx-core/store@24.10.1
+
 ## 12.3.0
 
 ### Minor Changes

@@ -1,13 +1,19 @@
 # @ctx-core/search
 
+## 13.1.1
+
+### Patch Changes
+
+- _prev_idx->prev_idx_,_next_idx->next_idx_
+
 ## 13.1.0
 
 ### Minor Changes
 
 - search_params_I: a1$->a$
 - search_params_T->search_params_I
-- search_result_store_T->search_result$_T
-- $search_result_store_T->search_result_T
+- search_result_store_T->search_result\$\_T
+- \$search_result_store_T->search_result_T
 
 ## 13.0.1
 

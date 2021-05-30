@@ -1,5 +1,20 @@
 # @ctx-core/search
 
+## 13.0.0
+
+### Major Changes
+
+- \$ suffix for stores
+- \_ suffix for factory functions
+
+### Patch Changes
+
+- Updated dependencies [undefined]
+- Updated dependencies [undefined]
+  - @ctx-core/array@21.0.0
+  - @ctx-core/object@19.0.0
+  - @ctx-core/store@25.0.0
+
 ## 12.3.1
 
 ### Patch Changes
@@ -802,13 +817,13 @@
 
 ### Patch Changes
 
-- fix: \_search_result_store: return type: search_result_opts_type<I, O>
+- fix: \_search_result_store: return type: search_result_opts_T<I, O>
 
 ## 12.0.0
 
 ### Major Changes
 
-- search_result_opts_type: \_\_query=>query
+- search_result_opts_T: \_\_query=>query
 
 ## 11.1.0
 
@@ -1070,7 +1085,7 @@
 
 ### Major Changes
 
-- \_down**item**search->\_down_search_item,\_up**item**search->\_up_search_item,Opts**store**search_result->search_result_opts_type,\_store\_\_search_result->\_search_result_store
+- \_down**item**search->\_down_search_item,\_up**item**search->\_up_search_item,Opts**store**search_result->search_result_opts_T,\_store\_\_search_result->\_search_result_store
 
 ## 10.1.7
 

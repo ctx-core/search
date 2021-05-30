@@ -1,5 +1,5 @@
 import type { Readable$, Writable$ } from '@ctx-core/store'
-export interface search_params_T<I extends unknown = unknown> {
-	a1$:Readable$<I[]>
+export interface search_params_I<I extends unknown = unknown> {
+	a$:Readable$<I[]>
 	idx$:Writable$<number>
 }

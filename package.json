@@ -27,9 +27,9 @@
 		"prepublishOnly": "npm run compile"
 	},
 	"dependencies": {
-		"@ctx-core/array": "workspace:^21.0.1",
-		"@ctx-core/object": "workspace:^19.0.0",
-		"@ctx-core/store": "workspace:^25.0.1",
+		"@ctx-core/array": "workspace:^21.0.2",
+		"@ctx-core/object": "workspace:^19.0.1",
+		"@ctx-core/store": "workspace:^25.0.2",
 		"svelte": "3.38.2"
 	},
 	"devDependencies": {

@@ -1,5 +1,11 @@
 # @ctx-core/search
 
+## 13.1.2
+
+### Patch Changes
+
+- version bump
+
 ## 13.1.1
 
 ### Patch Changes

@@ -1,5 +1,14 @@
 # @ctx-core/search
 
+## 13.1.13
+
+### Patch Changes
+
+- update dependencies
+- Updated dependencies [undefined]
+  - @ctx-core/object@19.1.1
+  - @ctx-core/store@25.1.9
+
 ## 13.1.12
 
 ### Patch Changes

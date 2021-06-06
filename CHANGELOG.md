@@ -1,5 +1,15 @@
 # @ctx-core/search
 
+## 13.1.16
+
+### Patch Changes
+
+- fix: build: clean up old build files in dist
+- Updated dependencies [undefined]
+  - @ctx-core/array@21.2.6
+  - @ctx-core/object@19.1.2
+  - @ctx-core/store@25.1.12
+
 ## 13.1.15
 
 ### Patch Changes

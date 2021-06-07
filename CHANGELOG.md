@@ -1,5 +1,15 @@
 # @ctx-core/search
 
+## 13.1.17
+
+### Patch Changes
+
+- version bump: run build
+- Updated dependencies [undefined]
+  - @ctx-core/array@21.2.7
+  - @ctx-core/object@19.1.3
+  - @ctx-core/store@25.1.13
+
 ## 13.1.16
 
 ### Patch Changes

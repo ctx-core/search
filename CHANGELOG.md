@@ -1,5 +1,15 @@
 # @ctx-core/search
 
+## 14.0.4
+
+### Patch Changes
+
+- fix: npm run clean
+- Updated dependencies [undefined]
+  - @ctx-core/array@22.0.5
+  - @ctx-core/object@20.0.4
+  - @ctx-core/store@26.0.5
+
 ## 14.0.3
 
 ### Patch Changes

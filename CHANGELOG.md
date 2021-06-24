@@ -1,5 +1,15 @@
 # @ctx-core/search
 
+## 14.0.11
+
+### Patch Changes
+
+- tsconfig.json: "lib": ["dom", "ESNext"]
+- Updated dependencies [undefined]
+  - @ctx-core/array@22.0.11
+  - @ctx-core/object@20.1.1
+  - @ctx-core/store@26.0.12
+
 ## 14.0.10
 
 ### Patch Changes

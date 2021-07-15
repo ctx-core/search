@@ -1,5 +1,5 @@
 import { next_idx_ } from '@ctx-core/array'
-import type { search_params_I } from './search_params_I'
+import type { search_params_I } from './search_params_I.js'
 /**
  * Returns a `down_search_item` function, which sets `idx` to the next value
  */

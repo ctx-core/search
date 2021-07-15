@@ -1,5 +1,5 @@
 import { prev_idx_ } from '@ctx-core/array'
-import type { search_params_I } from './search_params_I'
+import type { search_params_I } from './search_params_I.js'
 /**
  * Returns a `up_search_item` function, which sets `idx` & `__item` to the previous value
 y */

@@ -1,5 +1,15 @@
 # @ctx-core/search
 
+## 15.0.4
+
+### Patch Changes
+
+- back to esm module with cjs using esm npm package to load library
+- Updated dependencies [undefined]
+  - @ctx-core/array@23.0.6
+  - @ctx-core/object@21.0.5
+  - @ctx-core/store@27.0.4
+
 ## 15.0.3
 
 ### Patch Changes

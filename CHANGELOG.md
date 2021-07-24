@@ -1,5 +1,13 @@
 # @ctx-core/search
 
+## 15.0.14
+
+### Patch Changes
+
+- svelte: 3.40.1 -> 3.40.2
+- Updated dependencies [undefined]
+  - @ctx-core/store@27.0.14
+
 ## 15.0.13
 
 ### Patch Changes

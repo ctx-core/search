@@ -1,6 +1,6 @@
 {
 	"name": "@ctx-core/search",
-	"version": "15.0.19",
+	"version": "15.0.20",
 	"description": "ctx-core search",
 	"keywords": [
 		"ctx-core",
@@ -38,9 +38,9 @@
 	"dependencies": {
 		"@ctx-core/array": "workspace:^23.0.14",
 		"@ctx-core/object": "workspace:^21.0.13",
-		"@ctx-core/store": "workspace:^27.0.19",
+		"@ctx-core/store": "workspace:^27.0.20",
 		"esm": "^3.2.25",
-		"svelte": "3.42.2"
+		"svelte": "3.42.3"
 	},
 	"devDependencies": {
 		"typescript": "^4.3.5"

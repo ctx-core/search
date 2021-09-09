@@ -1,5 +1,11 @@
 # @ctx-core/search
 
+## 15.0.23
+
+### Patch Changes
+
+- update dependencies
+
 ## 15.0.22
 
 ### Patch Changes

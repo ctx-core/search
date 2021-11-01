@@ -1,5 +1,17 @@
 # @ctx-core/search
 
+## 15.0.29
+
+### Patch Changes
+
+- typescript: ^4.4.3 -> ^4.4.4
+- svelte: 3.43.1 -> 3.44.0
+- Updated dependencies [undefined]
+- Updated dependencies [undefined]
+  - @ctx-core/array@23.0.22
+  - @ctx-core/object@21.0.21
+  - @ctx-core/store@27.0.34
+
 ## 15.0.28
 
 ### Patch Changes

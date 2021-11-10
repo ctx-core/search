@@ -1,5 +1,15 @@
 # @ctx-core/search
 
+## 15.0.31
+
+### Patch Changes
+
+- compile using swc
+- Updated dependencies
+  - @ctx-core/array@23.0.23
+  - @ctx-core/object@21.0.22
+  - @ctx-core/store@27.0.36
+
 ## 15.0.30
 
 ### Patch Changes

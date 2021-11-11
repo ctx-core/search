@@ -5,8 +5,8 @@ import type { search_params_I } from './search_params_I.js'
  */
 export function down_search_item_<I extends unknown = unknown>({ a$, idx$, }:search_params_I<I>) {
 	return ()=>{
-		const a:I[] = a$._ || []
-		const idx = next_idx_(a.length, idx$._ || 0)
-		idx$._ = idx
+		const a:I[] = a$.$ || []
+		const idx = next_idx_(a.length, idx$.$ || 0)
+		idx$.$ = idx
 	}
 }

@@ -22,7 +22,7 @@ export function search_result_store_</*@formatter:off*/
 				}))()
 				return
 			}
-			const previous_search:search_result_T<I, O> = search_store$._
+			const previous_search:search_result_T<I, O> = search_store$.$
 			const previous_query = previous_search && previous_search.query$
 			if (previous_query === query) {
 				return
@@ -34,7 +34,7 @@ export function search_result_store_</*@formatter:off*/
 			} as search_result_T<I, O>)
 			;(async ()=>{
 				const data = await data_({ query })
-				if (query === query$._) {
+				if (query === query$.$) {
 					set({
 						done: true,
 						loading: false,

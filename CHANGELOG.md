@@ -1,5 +1,15 @@
 # @ctx-core/search
 
+## 15.0.32
+
+### Patch Changes
+
+- @swc/core: ^1.2.107 -> ^1.2.108
+- Updated dependencies
+  - @ctx-core/array@23.0.24
+  - @ctx-core/object@21.0.23
+  - @ctx-core/store@27.0.37
+
 ## 15.0.31
 
 ### Patch Changes

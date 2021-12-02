@@ -1,6 +1,6 @@
 {
 	"name": "@ctx-core/search",
-	"version": "15.0.35",
+	"version": "15.0.36",
 	"description": "ctx-core search",
 	"keywords": [
 		"ctx-core",
@@ -35,14 +35,14 @@
 		"prepublishOnly": "npm run clean && npm run build"
 	},
 	"dependencies": {
-		"@ctx-core/array": "workspace:^23.0.27",
-		"@ctx-core/object": "workspace:^21.0.26",
-		"@ctx-core/store": "workspace:^27.0.40",
+		"@ctx-core/array": "workspace:^23.0.28",
+		"@ctx-core/object": "workspace:^21.0.27",
+		"@ctx-core/store": "workspace:^27.0.41",
 		"svelte": "3.44.2"
 	},
 	"devDependencies": {
 		"@swc/cli": "^0.1.52",
-		"@swc/core": "^1.2.113",
+		"@swc/core": "^1.2.116",
 		"typescript": "next"
 	},
 	"publishConfig": {

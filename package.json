@@ -1,6 +1,6 @@
 {
 	"name": "@ctx-core/search",
-	"version": "15.0.40",
+	"version": "15.0.41",
 	"description": "ctx-core search",
 	"keywords": [
 		"ctx-core",
@@ -17,7 +17,6 @@
 	"license": "Apache-2.0",
 	"author": "Brian Takita",
 	"type": "module",
-	"module": "./dist/index.js",
 	"types": "./src/index.ts",
 	"exports": {
 		".": {
@@ -33,9 +32,9 @@
 		"prepublishOnly": "npm run clean && npm run build"
 	},
 	"dependencies": {
-		"@ctx-core/array": "workspace:^23.0.32",
-		"@ctx-core/object": "workspace:^21.0.30",
-		"@ctx-core/store": "workspace:^27.0.45",
+		"@ctx-core/array": "workspace:^23.0.33",
+		"@ctx-core/object": "workspace:^22.0.0",
+		"@ctx-core/store": "workspace:^27.0.46",
 		"svelte": "3.44.2"
 	},
 	"devDependencies": {

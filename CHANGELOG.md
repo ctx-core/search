@@ -1,5 +1,16 @@
 # @ctx-core/search
 
+## 15.0.41
+
+### Patch Changes
+
+- package.json: - module
+- Updated dependencies
+- Updated dependencies
+  - @ctx-core/object@22.0.0
+  - @ctx-core/array@23.0.33
+  - @ctx-core/store@27.0.46
+
 ## 15.0.40
 
 ### Patch Changes

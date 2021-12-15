@@ -1,5 +1,15 @@
 # @ctx-core/search
 
+## 15.0.43
+
+### Patch Changes
+
+- package.json: svelte: ./dist/index.js
+- Updated dependencies
+  - @ctx-core/array@23.0.34
+  - @ctx-core/object@22.0.1
+  - @ctx-core/store@27.0.48
+
 ## 15.0.42
 
 ### Patch Changes

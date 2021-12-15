@@ -1,5 +1,15 @@
 # @ctx-core/search
 
+## 15.0.44
+
+### Patch Changes
+
+- fix: package.json: exports
+- Updated dependencies
+  - @ctx-core/array@23.0.35
+  - @ctx-core/object@22.0.2
+  - @ctx-core/store@27.0.49
+
 ## 15.0.43
 
 ### Patch Changes

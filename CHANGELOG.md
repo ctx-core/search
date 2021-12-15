@@ -1,5 +1,15 @@
 # @ctx-core/search
 
+## 15.0.46
+
+### Patch Changes
+
+- \*.d.ts export
+- Updated dependencies
+  - @ctx-core/array@23.0.37
+  - @ctx-core/object@22.0.4
+  - @ctx-core/store@27.0.51
+
 ## 15.0.45
 
 ### Patch Changes

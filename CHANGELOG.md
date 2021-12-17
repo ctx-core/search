@@ -1,5 +1,15 @@
 # @ctx-core/search
 
+## 15.0.48
+
+### Patch Changes
+
+- package.json: "types": "./src/index.ts": better editing experience
+- Updated dependencies
+  - @ctx-core/array@23.0.39
+  - @ctx-core/object@22.0.6
+  - @ctx-core/store@27.0.53
+
 ## 15.0.47
 
 ### Patch Changes

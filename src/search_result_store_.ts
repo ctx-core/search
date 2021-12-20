@@ -1,19 +1,13 @@
-import { derived$, Readable$ } from '@ctx-core/store'
-export function search_result_store_</*@formatter:off*/
-	I extends unknown = unknown,
-	O extends unknown = unknown
-/*@formatter:on*/>(
+import { setter_computed$, ReadableAtom$ } from '@ctx-core/nanostores'
+export function search_result_store_<I extends unknown = unknown, O extends unknown = unknown>(
 	{
 		query$, data_, clear
 	}:search_result_opts_I<I, O>
 ):search_result$_T<I, O> {
-	const search_store$ = derived$<Readable$<I>, search_result_T<I, O>>(
+	const search_store$ = setter_computed$<search_result_T<I, O>, ReadableAtom$<I>>(
 		query$,
-		(
-			query:I,
-			in_set
-		)=>{
-			const set = in_set as (value:search_result_T)=>void
+		(query:I, set)=>{
+			// const set = in_set as (value:search_result_T)=>void
 			if (!query) {
 				(clear || (()=>{
 					set(
@@ -47,18 +41,18 @@ export function search_result_store_</*@formatter:off*/
 	return search_store$
 }
 export interface search_result_opts_I<I extends unknown = unknown, O extends unknown = unknown> {
-	query$:Readable$<I>
+	query$:ReadableAtom$<I>
 	data_:(params:{ query:I })=>Promise<O[]>
 	clear?:()=>void
 }
 export interface search_result_T<I extends unknown = unknown, O extends unknown = unknown> {
 	done:boolean
 	loading:boolean
-	query$:Readable$<I>
+	query$:ReadableAtom$<I>
 	data?:O[]
 }
 export interface search_result$_T<I extends unknown = unknown, O extends unknown = unknown>
-	extends Readable$<search_result_T<I, O>> {}
+	extends ReadableAtom$<search_result_T<I, O>> {}
 export {
 	search_result_store_ as _store__search_result
 }

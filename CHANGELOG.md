@@ -1,5 +1,11 @@
 # @ctx-core/search
 
+## 16.0.0
+
+### Major Changes
+
+- using @ctx-core/nanostores for stores instead of @ctx-core/store,@ctx-core/svelte
+
 ## 15.0.50
 
 ### Patch Changes

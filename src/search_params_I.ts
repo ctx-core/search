@@ -1,5 +1,5 @@
-import type { Readable$, Writable$ } from '@ctx-core/store'
+import type { ReadableAtom$, WritableAtom$ } from '@ctx-core/nanostores'
 export interface search_params_I<I extends unknown = unknown> {
-	a$:Readable$<I[]>
-	idx$:Writable$<number>
+	a$:ReadableAtom$<I[]>
+	idx$:WritableAtom$<number>
 }

@@ -1,5 +1,15 @@
 # @ctx-core/search
 
+## 16.0.9
+
+### Patch Changes
+
+- sideEffects = false
+- Updated dependencies
+  - @ctx-core/array@23.1.4
+  - @ctx-core/nanostores@0.3.4
+  - @ctx-core/object@22.0.12
+
 ## 16.0.8
 
 ### Patch Changes

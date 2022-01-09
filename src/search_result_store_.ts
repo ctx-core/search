@@ -1,9 +1,7 @@
 import { run } from '@ctx-core/function'
 import { setter_computed$, ReadableAtom$ } from '@ctx-core/nanostores'
 export function search_result_store_<I extends unknown = unknown, O extends unknown = unknown>(
-	{
-		query$, data_, clear
-	}:search_result_opts_I<I, O>
+	{ query$, data_, clear }:search_result_opts_I<I, O>
 ):search_result$_T<I, O> {
 	let current_search_store:search_result_T<I, O>
 	const search_store$ = setter_computed$<search_result_T<I, O>, ReadableAtom$<I>>(
@@ -11,14 +9,14 @@ export function search_result_store_<I extends unknown = unknown, O extends unkn
 		(query:I, _set)=>{
 			// const set = in_set as (value:search_result_T)=>void
 			if (!query) {
-				(clear || (()=>{
+				run(clear || (()=>{
 					set(_set, {
 						done: true, loading: false, query$, data: []
 					} as search_result_T<I, O>)
-				}))()
+				}))
 				return
 			}
-			if (current_search_store?.query$ === query) {
+ 			if (current_search_store?.query$.$ === query) {
 				return
 			}
 			set(_set, {

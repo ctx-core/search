@@ -1,5 +1,11 @@
 # @ctx-core/search
 
+## 16.0.12
+
+### Patch Changes
+
+- fix: search*result_store*: infinite recursion
+
 ## 16.0.11
 
 ### Patch Changes

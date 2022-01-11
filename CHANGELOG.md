@@ -1,5 +1,13 @@
 # @ctx-core/search
 
+## 16.1.3
+
+### Patch Changes
+
+- fix: setter_computed\$: atom (non-array) stores argument
+- Updated dependencies
+  - @ctx-core/nanostores@0.3.6
+
 ## 16.1.2
 
 ### Patch Changes

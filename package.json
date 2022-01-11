@@ -1,6 +1,6 @@
 {
 	"name": "@ctx-core/search",
-	"version": "16.1.0",
+	"version": "16.1.1",
 	"description": "ctx-core search",
 	"keywords": [
 		"ctx-core",
@@ -17,10 +17,12 @@
 	"license": "Apache-2.0",
 	"author": "Brian Takita",
 	"type": "module",
-	"types": "./lib/index.d.ts",
+	"types": "./src/index.d.ts",
+	"svelte": "./src/index.js",
+	"sideEffects": false,
 	"exports": {
 		".": {
-			"import": "./lib/index.js"
+			"import": "./src/index.js"
 		},
 		"./package.json": "./package.json"
 	},
@@ -41,7 +43,5 @@
 	"publishConfig": {
 		"access": "public",
 		"cache": "~/.npm"
-	},
-	"svelte": "./lib/index.js",
-	"sideEffects": false
+	}
 }

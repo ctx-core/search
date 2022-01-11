@@ -1,5 +1,11 @@
 # @ctx-core/search
 
+## 16.1.1
+
+### Patch Changes
+
+- fix: package.json: "types","." > "import"
+
 ## 16.1.0
 
 ### Minor Changes

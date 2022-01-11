@@ -1,5 +1,11 @@
 # @ctx-core/search
 
+## 16.1.2
+
+### Patch Changes
+
+- fix: search*result_store*: set atom to result of data return from promise: query was not correctly extracted from arguments resulting in not passing the query guard
+
 ## 16.1.1
 
 ### Patch Changes

@@ -1,5 +1,15 @@
 # @ctx-core/search
 
+## 16.1.0
+
+### Minor Changes
+
+- eac4b727f: feat: search*result_store*: timeout parameter
+
+### Patch Changes
+
+- .js + .d.ts instead of .ts
+
 ## 16.0.12
 
 ### Patch Changes

@@ -1,5 +1,17 @@
 # @ctx-core/search
 
+## 16.2.0
+
+### Minor Changes
+
+- search*store\$*: query$: ReadableAtom instead of a ReadableAtom$
+
+### Patch Changes
+
+- fix: search*store\$*: deadlock due to query checking: storing query value instead of query\$ atom
+- Updated dependencies
+  - @ctx-core/nanostores@0.3.8
+
 ## 16.1.5
 
 ### Patch Changes

@@ -1,5 +1,14 @@
 # @ctx-core/search
 
+## 16.2.1
+
+### Patch Changes
+
+- search*store\$*: slightly shorter assignment of query prop after data\_({ query }) call
+- Updated dependencies
+- Updated dependencies
+  - @ctx-core/nanostores@0.4.0
+
 ## 16.2.0
 
 ### Minor Changes

@@ -35,7 +35,7 @@ export function search_store$_({ query$, data_, clear, timeout }) {
 					set({
 						done: true,
 						loading: false,
-						query: $query$,
+						query,
 						data
 					})
 				}

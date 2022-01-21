@@ -1,5 +1,11 @@
 # @ctx-core/search
 
+## 16.2.3
+
+### Patch Changes
+
+- update dependencies
+
 ## 16.2.2
 
 ### Patch Changes

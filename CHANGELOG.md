@@ -1,5 +1,12 @@
 # @ctx-core/search
 
+## 16.2.4
+
+### Patch Changes
+
+- Updated dependencies
+  - @ctx-core/nanostores@0.5.0
+
 ## 16.2.3
 
 ### Patch Changes

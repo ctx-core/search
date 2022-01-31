@@ -1,5 +1,11 @@
 # @ctx-core/search
 
+## 16.2.6
+
+### Patch Changes
+
+- fix: search_params_I: a$:ReadableAtom$<readonly I[]>
+
 ## 16.2.5
 
 ### Patch Changes

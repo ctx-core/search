@@ -1,5 +1,13 @@
 # @ctx-core/search
 
+## 17.0.0
+
+### Major Changes
+
+- down*search_item*=>down_search_item
+
+  up*search_item*=>up_search_item
+
 ## 16.2.6
 
 ### Patch Changes

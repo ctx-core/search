@@ -1,5 +1,15 @@
 # @ctx-core/search
 
+## 17.0.16
+
+### Patch Changes
+
+- package.json: exports: update
+- Updated dependencies
+  - @ctx-core/array@26.1.3
+  - @ctx-core/nanostores@1.0.11
+  - @ctx-core/object@22.1.4
+
 ## 17.0.15
 
 ### Patch Changes

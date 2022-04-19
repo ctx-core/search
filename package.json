@@ -34,9 +34,9 @@
 		"test-unit-coverage": "c8 pnpm test-unit"
 	},
 	"dependencies": {
-		"@ctx-core/array": "^26.1.4",
-		"@ctx-core/nanostores": "^1.0.12",
-		"@ctx-core/object": "^22.1.5"
+		"@ctx-core/array": "^26.1.5",
+		"@ctx-core/nanostores": "^1.0.13",
+		"@ctx-core/object": "^22.1.6"
 	},
 	"devDependencies": {
 		"@sinonjs/fake-timers": "^9.1.2",

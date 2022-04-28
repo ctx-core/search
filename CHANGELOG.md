@@ -1,5 +1,13 @@
 # @ctx-core/search
 
+## 17.0.20
+
+### Patch Changes
+
+- update dependencies
+- Updated dependencies
+  - @ctx-core/array@26.2.2
+
 ## 17.0.19
 
 ### Patch Changes

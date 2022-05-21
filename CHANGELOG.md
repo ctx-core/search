@@ -1,5 +1,11 @@
 # @ctx-core/search
 
+## 17.0.24
+
+### Patch Changes
+
+- fix: npm run test: + @types/sinonjs\_\_fake-timers
+
 ## 17.0.23
 
 ### Patch Changes

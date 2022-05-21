@@ -1,6 +1,6 @@
 {
 	"name": "@ctx-core/search",
-	"version": "17.0.22",
+	"version": "17.0.23",
 	"description": "ctx-core search",
 	"keywords": [
 		"ctx-core",
@@ -34,8 +34,8 @@
 		"test-unit-coverage": "c8 pnpm test-unit"
 	},
 	"dependencies": {
-		"@ctx-core/array": "^26.2.4",
-		"@ctx-core/nanostores": "^1.0.18",
+		"@ctx-core/array": "^26.3.0",
+		"@ctx-core/nanostores": "^1.0.19",
 		"@ctx-core/object": "^22.1.10"
 	},
 	"devDependencies": {

@@ -1,8 +1,8 @@
 import { run } from '@ctx-core/function'
-import { setter_computed$ } from '@ctx-core/nanostores'
+import { setter_computed_ } from '@ctx-core/nanostores'
 export function search_store$_({ query$, data_, clear, timeout }) {
 	let current_search_store
-	const search_store$ = setter_computed$(query$, (query, _set)=>{
+	const search_store$ = setter_computed_(query$, (query, _set)=>{
 		if (!query) {
 			run(clear || (()=>{
 				set({

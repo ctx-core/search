@@ -1,5 +1,16 @@
 # @ctx-core/search
 
+## 17.1.0
+
+### Minor Changes
+
+- \__ suffix aliased by \$_
+
+### Patch Changes
+
+- Updated dependencies
+  - @ctx-core/array@26.5.0
+
 ## 17.0.32
 
 ### Patch Changes

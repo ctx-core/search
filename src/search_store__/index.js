@@ -1,14 +1,14 @@
 import { run } from '@ctx-core/function'
 import { setter_computed_ } from '@ctx-core/nanostores'
-export function search_store$_({ query$, data_, clear, timeout }) {
+export function search_store__({ query_, data_, clear, timeout }) {
 	let current_search_store
-	const search_store$ = setter_computed_(query$, (query, _set)=>{
+	const search_store_ = setter_computed_(query_, (query, _set)=>{
 		if (!query) {
 			run(clear || (()=>{
 				set({
 					done: true,
 					loading: false,
-					query: query$.get(),
+					query: query_.get(),
 					data: []
 				})
 			}))
@@ -20,7 +20,7 @@ export function search_store$_({ query$, data_, clear, timeout }) {
 		set({
 			done: false,
 			loading: true,
-			query: query$.get()
+			query: query_.get()
 		})
 		if (typeof typeof timeout !== 'number') timeout = 10000
 		Promise.race([
@@ -30,8 +30,8 @@ export function search_store$_({ query$, data_, clear, timeout }) {
 			}),
 			run(async ()=>{
 				const data = await data_({ query })
-				const $query$ = query$.get()
-				if (query === $query$) {
+				const $query_ = query_.get()
+				if (query === $query_) {
 					set({
 						done: true,
 						loading: false,
@@ -46,9 +46,10 @@ export function search_store$_({ query$, data_, clear, timeout }) {
 			_set(search_store)
 		}
 	})
-	return search_store$
+	return search_store_
 }
 export {
-	search_store$_ as search_result_store_,
-	search_store$_ as _store__search_result
+	search_store__ as search_store$_,
+	search_store__ as search_result_store_,
+	search_store__ as _store__search_result
 }

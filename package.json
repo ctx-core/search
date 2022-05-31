@@ -36,7 +36,7 @@
 	"dependencies": {
 		"@ctx-core/array": "^26.4.3",
 		"@ctx-core/nanostores": "^1.4.0",
-		"@ctx-core/object": "^22.2.0"
+		"@ctx-core/object": "^22.2.1"
 	},
 	"devDependencies": {
 		"@sinonjs/fake-timers": "^9.1.2",

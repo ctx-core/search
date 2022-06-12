@@ -1,5 +1,11 @@
 # @ctx-core/search
 
+## 17.1.1
+
+### Patch Changes
+
+- @ctx-core/array: 26.5.2
+
 ## 17.1.0
 
 ### Minor Changes

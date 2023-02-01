@@ -1,5 +1,11 @@
 # @ctx-core/search
 
+## 17.1.25
+
+### Patch Changes
+
+- @ctx-core/array: ^26.8.14 -> ^26.8.15
+
 ## 17.1.24
 
 ### Patch Changes

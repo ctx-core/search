@@ -1,5 +1,11 @@
 # @ctx-core/search
 
+## 17.1.26
+
+### Patch Changes
+
+- @ctx-core/nanostores: ^2.2.18 -> ^2.2.19
+
 ## 17.1.25
 
 ### Patch Changes

@@ -1,6 +1,12 @@
 import { run } from '@ctx-core/function'
 import { setter_computed_ } from '@ctx-core/nanostores'
-export function search_store__({ query_, data_, clear, timeout }) {
+/**
+ * @param opts{import('./index.d.ts').search_result__opts_T}
+ * @returns {import('./index.d.ts').search_store_T}
+ */
+export function search_store__(opts) {
+	const { query_, data_, clear } = opts
+	let { timeout } = opts
 	let current_search_store
 	const search_store_ = setter_computed_(query_, (query, _set)=>{
 		if (!query) {

@@ -1,5 +1,19 @@
 # @ctx-core/search
 
+## 18.0.0
+
+### Major Changes
+
+- search_params_T:
+
+  a$=>a_
+    idx$=>idx\_
+
+### Minor Changes
+
+- extract _.js & _.d.ts into directories
+- - search_params_T: aliased by search_params_I
+
 ## 17.1.32
 
 ### Patch Changes

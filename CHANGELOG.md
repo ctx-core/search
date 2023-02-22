@@ -1,5 +1,11 @@
 # @ctx-core/search
 
+## 19.0.2
+
+### Patch Changes
+
+- search_item\_\_up: generic type: fix: <I extends unknown[] = unknown[]>
+
 ## 19.0.1
 
 ### Patch Changes

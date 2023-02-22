@@ -1,5 +1,11 @@
 # @ctx-core/search
 
+## 19.0.4
+
+### Patch Changes
+
+- search_item**down,search_item**up: <I extends readonly unknown[] = readonly unknown[]>
+
 ## 19.0.3
 
 ### Patch Changes

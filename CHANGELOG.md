@@ -1,5 +1,11 @@
 # @ctx-core/search
 
+## 19.0.1
+
+### Patch Changes
+
+- fix: down_search_item,up_search_item: export aliases
+
 ## 19.0.0
 
 ### Major Changes

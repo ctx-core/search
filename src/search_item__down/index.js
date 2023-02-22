@@ -9,3 +9,6 @@ export function search_item__down(params) {
 	const idx = next_idx_(a.length, idx_.$ || 0)
 	idx_.$ = idx
 }
+export {
+	search_item__down as down_search_item,
+}

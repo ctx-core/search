@@ -1,5 +1,16 @@
 # @ctx-core/search
 
+## 19.0.0
+
+### Major Changes
+
+- search_params_T: generics: <I extends unknown[] = unknown[]>
+
+### Minor Changes
+
+- - search_item\_\_down: aliased by down_search_item
+- - search_item\_\_up: aliased by up_search_item
+
 ## 18.0.8
 
 ### Patch Changes

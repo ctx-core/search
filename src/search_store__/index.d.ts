@@ -1,4 +1,4 @@
-import { ReadableAtom, ReadableAtom_ } from '@ctx-core/nanostores'
+import type { ReadableAtom, ReadableAtom_ } from '@ctx-core/nanostores'
 export declare function search_store__<
 	I extends unknown = unknown, O extends unknown = unknown
 >(
@@ -22,7 +22,9 @@ export interface search_result__opts_T<
 export declare type search_result_opts_I<
 	I extends unknown = unknown, O extends unknown = unknown
 > = search_result__opts_T<I, O>
-export interface search_result_T<I extends unknown = unknown, O extends unknown = unknown> {
+export interface search_result_T<
+	I extends unknown = unknown, O extends unknown = unknown
+> {
 	done:boolean
 	loading:boolean
 	query:I

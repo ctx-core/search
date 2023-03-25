@@ -1,5 +1,11 @@
 # @ctx-core/search
 
+## 19.1.0
+
+### Minor Changes
+
+- - search_result**params_T: aliased by search_result**opts_T
+
 ## 19.0.28
 
 ### Patch Changes

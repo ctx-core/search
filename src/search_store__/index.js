@@ -1,7 +1,7 @@
 import { run } from '@ctx-core/function'
 import { setter_computed_ } from '@ctx-core/nanostores'
 /**
- * @param opts{import('./index.d.ts').search_result__opts_T}
+ * @param opts{import('./index.d.ts').search_result__params_T}
  * @returns {import('./index.d.ts').search_store_T}
  */
 export function search_store__(opts) {

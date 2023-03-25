@@ -1,5 +1,11 @@
 # @ctx-core/search
 
+## 19.0.27
+
+### Patch Changes
+
+- ∋ @ctx-core/function
+
 ## 19.0.26
 
 ### Patch Changes

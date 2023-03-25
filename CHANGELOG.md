@@ -1,5 +1,11 @@
 # @ctx-core/search
 
+## 19.0.28
+
+### Patch Changes
+
+- fix: @ctx-core/function dependency
+
 ## 19.0.27
 
 ### Patch Changes

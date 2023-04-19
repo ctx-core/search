@@ -1,5 +1,16 @@
 # @ctx-core/search
 
+## 19.1.31
+
+### Patch Changes
+
+- @ctx-core/monorepo: ^20.3.3 -> ^20.3.4
+- Updated dependencies
+  - @ctx-core/array@26.12.32
+  - @ctx-core/function@21.17.19
+  - @ctx-core/nanostores@3.2.22
+  - @ctx-core/object@27.4.23
+
 ## 19.1.30
 
 ### Patch Changes

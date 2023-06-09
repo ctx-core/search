@@ -1,14 +1,15 @@
 import type { ReadableAtom, ReadableAtom_ } from '@ctx-core/nanostores'
-export declare function search_store__<
+import type { Ctx } from '@ctx-core/object'
+export declare function search_result$__new<
 	I extends unknown = unknown,
 	O extends unknown = unknown
 >(
 	{ query_, data_, clear, timeout }:search_result__params_T<I, O>
 ):search_store_T<I, O>
 export {
-	search_store__ as search_store$_,
-	search_store__ as search_result_store_,
-	search_store__ as _store__search_result,
+	search_result$__new as search_store__,
+	search_result$__new as search_result_store_,
+	search_result$__new as _store__search_result,
 }
 export interface search_result__params_T<
 	I extends unknown = unknown,
@@ -38,11 +39,11 @@ export interface search_result_T<
 	query:I
 	data?:O[]
 }
-export type search_store_T<
+export type search_result$_T<
 	I extends unknown = unknown,
 	O extends unknown = unknown
 > = ReadableAtom_<search_result_T<I, O>>
-export declare type search_result$_T<
+export declare type search_store_T<
 	I extends unknown = unknown,
 	O extends unknown = unknown
-> = search_store_T<I, O>
+> = search_result$_T<I, O>

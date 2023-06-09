@@ -1,5 +1,11 @@
 # @ctx-core/search
 
+## 19.1.57
+
+### Patch Changes
+
+- search\*result$\_\_new: aliased by search_store\_\_
+
 ## 19.1.56
 
 ### Patch Changes

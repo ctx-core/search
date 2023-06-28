@@ -1,6 +1,6 @@
 {
 	"name": "@ctx-core/search",
-	"version": "19.1.67",
+	"version": "19.1.68",
 	"description": "ctx-core search",
 	"keywords": [
 		"ctx-core",
@@ -36,7 +36,7 @@
 	"dependencies": {
 		"@ctx-core/array": "^26.12.44",
 		"@ctx-core/function": "^21.18.0",
-		"@ctx-core/nanostores": "^5.2.1",
+		"@ctx-core/nanostores": "^5.2.3",
 		"@ctx-core/object": "^28.0.3"
 	},
 	"devDependencies": {

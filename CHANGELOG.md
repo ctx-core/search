@@ -1,5 +1,11 @@
 # @ctx-core/search
 
+## 19.1.80
+
+### Patch Changes
+
+- @ctx-core/array: ^26.14.1 -> ^26.15.0
+
 ## 19.1.79
 
 ### Patch Changes

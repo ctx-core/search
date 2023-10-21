@@ -1,5 +1,11 @@
 # @ctx-core/search
 
+## 19.1.89
+
+### Patch Changes
+
+- @ctx-core/nanostores: ^6.0.14 -> ^6.0.15
+
 ## 19.1.88
 
 ### Patch Changes

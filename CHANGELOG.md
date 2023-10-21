@@ -1,5 +1,13 @@
 # @ctx-core/search
 
+## 19.1.88
+
+### Patch Changes
+
+- @sinonjs/fake-timers: ^11.2.1 -> ^11.2.2
+- Updated dependencies
+  - @ctx-core/nanostores@6.0.14
+
 ## 19.1.87
 
 ### Patch Changes

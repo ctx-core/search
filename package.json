@@ -1,6 +1,6 @@
 {
 	"name": "@ctx-core/search",
-	"version": "19.1.94",
+	"version": "19.1.95",
 	"description": "ctx-core search",
 	"keywords": [
 		"ctx-core",
@@ -36,12 +36,12 @@
 	"dependencies": {
 		"@ctx-core/array": "^26.15.7",
 		"@ctx-core/function": "^21.20.2",
-		"@ctx-core/nanostores": "^7.0.5",
+		"@ctx-core/nanostores": "^7.0.6",
 		"@ctx-core/object": "^29.0.0"
 	},
 	"devDependencies": {
 		"@sinonjs/fake-timers": "^11.2.2",
-		"@types/sinonjs__fake-timers": "^8.1.4",
+		"@types/sinonjs__fake-timers": "^8.1.5",
 		"c8": "^8.0.1",
 		"check-dts": "^0.7.2",
 		"tsx": "^3.14.0",

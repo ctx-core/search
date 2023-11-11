@@ -1,7 +1,7 @@
 import { prev_idx_ } from '@ctx-core/array'
 /**
  * Returns a `search_item__up` function, which sets `idx` & `__item` to the previous value
- * @param {import('../_types').search_params_T}params
+ * @param {import('../_types/index.d.ts').search_params_T}params
  */
 export function search_item__up(params) {
 	const { a_, idx_ } = params

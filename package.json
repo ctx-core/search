@@ -1,6 +1,6 @@
 {
 	"name": "@ctx-core/search",
-	"version": "19.1.97",
+	"version": "19.2.0",
 	"description": "ctx-core search",
 	"keywords": [
 		"ctx-core",
@@ -17,11 +17,17 @@
 	"license": "Apache-2.0",
 	"author": "Brian Takita",
 	"type": "module",
-	"types": "./src/index.d.ts",
-	"svelte": "./src/index.js",
+	"files": [
+		"*.d.ts",
+		"./_types",
+		"./search_item__down",
+		"./search_item__up",
+		"./search_result$"
+	],
+	"types": "./index.d.ts",
 	"sideEffects": false,
 	"exports": {
-		".": "./src/index.js",
+		".": "./index.js",
 		"./package.json": "./package.json"
 	},
 	"scripts": {
@@ -34,10 +40,10 @@
 		"test-unit-coverage": "c8 pnpm test-unit"
 	},
 	"dependencies": {
-		"@ctx-core/array": "^26.15.9",
-		"@ctx-core/function": "^21.20.2",
-		"@ctx-core/nanostores": "^7.0.8",
-		"@ctx-core/object": "^30.0.0"
+		"@ctx-core/array": "^27.0.0",
+		"@ctx-core/function": "^21.21.0",
+		"@ctx-core/nanostores": "^7.1.0",
+		"@ctx-core/object": "^30.1.0"
 	},
 	"devDependencies": {
 		"@sinonjs/fake-timers": "^11.2.2",

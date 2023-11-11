@@ -1,7 +1,7 @@
 import { next_idx_ } from '@ctx-core/array'
 /**
  * Returns a `search_item__down` function, which sets `idx` to the next value
- * @param {import('../_types').search_params_T}params
+ * @param {import('../_types/index.d.ts').search_params_T}params
  */
 export function search_item__down(params) {
 	const { a_, idx_ } = params

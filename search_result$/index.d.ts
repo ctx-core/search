@@ -1,5 +1,4 @@
 import type { ReadableAtom, ReadableAtom_ } from '@ctx-core/nanostores'
-import type { Ctx } from '@ctx-core/object'
 export declare function search_result$__new<
 	I extends unknown = unknown,
 	O extends unknown = unknown

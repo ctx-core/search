@@ -1,8 +1,9 @@
-import { test } from 'uvu'
-import { equal } from 'uvu/assert'
 import { sleep } from '@ctx-core/function'
 import { atom } from '@ctx-core/nanostores'
+// @ts-ignore
 import FakeTimers, { InstalledClock } from '@sinonjs/fake-timers'
+import { test } from 'uvu'
+import { equal } from 'uvu/assert'
 import { search_result$__new } from '../index.js'
 let clock:InstalledClock
 test.before(()=>{

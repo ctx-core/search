@@ -1,4 +1,4 @@
-import type { search_params_T } from '../_types'
+import type { search_params_T } from '../_types/index.js'
 /**
  * Returns a `search_item__down` function, which sets `idx` to the next value
  */

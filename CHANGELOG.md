@@ -1,5 +1,13 @@
 # @ctx-core/search
 
+## 19.2.4
+
+### Patch Changes
+
+- @ctx-core/array: ^27.0.3 -> ^27.0.4
+- Updated dependencies
+  - @ctx-core/nanostores@7.1.5
+
 ## 19.2.3
 
 ### Patch Changes

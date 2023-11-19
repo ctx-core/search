@@ -1,6 +1,6 @@
 import { run } from '@ctx-core/function'
 import { setter_computed_ } from '@ctx-core/nanostores'
-/** @typedef {import('@ctx-core/object').Ctx}Ctx */
+/** @typedef {import('@ctx-core/object').Ctx} */
 /**
  * @param {import('./index.d.ts').search_result__params_T}params
  * @returns {import('./index.d.ts').search_store_T}

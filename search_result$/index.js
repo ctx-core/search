@@ -1,9 +1,11 @@
-import { run } from '@ctx-core/function'
+/// <reference types="ctx-core" />
+/// <reference types="./index.d.ts" />
 import { setter_computed_ } from '@ctx-core/nanostores'
-/** @typedef {import('@ctx-core/object').Ctx} */
+import { run } from 'ctx-core/function'
+/** @typedef {Ctx} */
 /**
- * @param {import('./index.d.ts').search_result__params_T}params
- * @returns {import('./index.d.ts').search_store_T}
+ * @param {search_result__params_T}params
+ * @returns {search_store_T}
  */
 export function search_result$__new(params) {
 	const { query_, data_, clear } = params

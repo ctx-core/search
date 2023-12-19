@@ -1,7 +1,6 @@
-import { sleep } from '@ctx-core/function'
 import { atom } from '@ctx-core/nanostores'
-// @ts-ignore
 import FakeTimers, { InstalledClock } from '@sinonjs/fake-timers'
+import { sleep } from 'ctx-core/function'
 import { test } from 'uvu'
 import { equal } from 'uvu/assert'
 import { search_result$__new } from '../index.js'

@@ -1,6 +1,6 @@
 {
 	"name": "@ctx-core/search",
-	"version": "19.2.59",
+	"version": "19.2.60",
 	"description": "ctx-core search",
 	"keywords": [
 		"ctx-core",
@@ -42,10 +42,8 @@
 		"test-unit-coverage": "c8 pnpm test-unit"
 	},
 	"dependencies": {
-		"@ctx-core/array": "^27.1.16",
-		"@ctx-core/function": "^21.24.9",
 		"@ctx-core/nanostores": "^10.0.3",
-		"@ctx-core/object": "^31.1.36"
+		"ctx-core": "^5.1.0"
 	},
 	"devDependencies": {
 		"@sinonjs/fake-timers": "^11.2.2",

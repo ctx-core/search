@@ -1,12 +1,12 @@
 import { atom } from '@ctx-core/nanostores'
-import FakeTimers, { InstalledClock } from '@sinonjs/fake-timers'
+import { install, InstalledClock } from '@sinonjs/fake-timers'
 import { sleep } from 'ctx-core/function'
 import { test } from 'uvu'
 import { equal } from 'uvu/assert'
 import { search_result$__new } from '../index.js'
 let clock:InstalledClock
 test.before(()=>{
-	clock = FakeTimers.install()
+	clock = install()
 })
 test.after(()=>{
 	clock.uninstall()

@@ -1,5 +1,18 @@
 # @ctx-core/search
 
+## 20.0.0
+
+### Major Changes
+
+- major:
+
+      search_result$__new→search_result__new
+      - search_store__
+      - search_result_store_
+      - _store__search_result
+
+- rmemo instead of @ctx-core/nanostores
+
 ## 19.2.71
 
 ### Patch Changes

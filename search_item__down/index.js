@@ -6,9 +6,9 @@ import { next_idx_ } from 'ctx-core/array'
  */
 export function search_item__down(params) {
 	const { a_, idx_ } = params
-	const a = a_.$ || []
-	const idx = next_idx_(a.length, idx_.$ || 0)
-	idx_.$ = idx
+	const a = a_() ?? []
+	const idx = next_idx_(a.length, idx_() ?? 0)
+	idx_._ = idx
 }
 export {
 	search_item__down as down_search_item,

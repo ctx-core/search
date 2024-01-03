@@ -1,7 +1,7 @@
 /// <reference types="ctx-core" />
 /// <reference types="./index.d.ts" />
-import { run } from 'ctx-core/function'
 import { memo_ } from 'ctx-core/rmemo'
+import { run } from 'ctx-core/run'
 /** @typedef {Ctx} */
 /**
  * @param {search_result__params_T}params

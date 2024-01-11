@@ -1,4 +1,4 @@
-import type { memo_T } from 'ctx-core/rmemo'
+import type { memo_T, rmemo_T } from 'ctx-core/rmemo'
 export declare function search_result__new<
 	I = unknown,
 	O = unknown
@@ -9,7 +9,7 @@ export interface search_result__params_T<
 	I = unknown,
 	O = unknown
 > {
-	query_:memo_T<I>
+	query_:rmemo_T<I>
 	data_:(params:{
 		query:I
 	})=>Promise<O[]>

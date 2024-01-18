@@ -1,5 +1,11 @@
 # @ctx-core/search
 
+## 20.0.32
+
+### Patch Changes
+
+- ctx-core: ^5.22.1 -> ^5.23.0
+
 ## 20.0.31
 
 ### Patch Changes

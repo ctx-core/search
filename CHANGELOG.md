@@ -1,5 +1,11 @@
 # @ctx-core/search
 
+## 20.0.62
+
+### Patch Changes
+
+- search_result: fix: browser build: - ∋ node:timers
+
 ## 20.0.61
 
 ### Patch Changes

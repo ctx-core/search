@@ -2,7 +2,6 @@
 /// <reference types="./index.d.ts" />
 import { memo_ } from 'ctx-core/rmemo'
 import { run } from 'ctx-core/run'
-import { clearTimeout } from 'node:timers'
 /** @typedef {Ctx} */
 /**
  * @param {search_result__params_T}params

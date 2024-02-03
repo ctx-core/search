@@ -2,6 +2,7 @@
 /// <reference types="./index.d.ts" />
 import { memo_ } from 'ctx-core/rmemo'
 import { run } from 'ctx-core/run'
+import { clearTimeout } from 'node:timers'
 /** @typedef {Ctx} */
 /**
  * @param {search_result__params_T}params
@@ -33,9 +34,10 @@ export function search_result__new(params) {
 				query: query_()
 			})
 			if (typeof typeof timeout !== 'number') timeout = 10000
+			let timeout_id
 			Promise.race([
 				new Promise((_res, rej)=>{
-					setTimeout(()=>
+					timeout_id = setTimeout(()=>
 						rej(new Error('Timeout')), timeout)
 				}),
 				run(async ()=>{
@@ -51,6 +53,7 @@ export function search_result__new(params) {
 					}
 				})
 			]).then()
+				.finally(()=>clearTimeout(timeout_id))
 			return search_store$.val
 			function set(search_store) {
 				current_search_store = search_store

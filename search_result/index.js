@@ -2,7 +2,7 @@
 /// <reference types="./index.d.ts" />
 import { memo_ } from 'ctx-core/rmemo'
 import { run } from 'ctx-core/run'
-/** @typedef {Ctx} */
+/** @typedef {ctx_T} */
 /**
  * @param {search_result__params_T}params
  * @returns {search_store_T}

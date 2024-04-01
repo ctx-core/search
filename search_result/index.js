@@ -56,7 +56,7 @@ export function search_result__new(params) {
 			return search_store$.val
 			function set(search_store) {
 				current_search_store = search_store
-				search_store$._ = search_store
+				search_store$.set(search_store)
 			}
 		})
 	return search_store$

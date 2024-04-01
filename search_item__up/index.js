@@ -8,7 +8,7 @@ export function search_item__up(params) {
 	const { a_, idx_ } = params
 	const a = a_() ?? []
 	const idx = prev_idx_(a.length, idx_() ?? 0)
-	idx_._ = idx
+	idx_.set(idx)
 }
 export {
 	search_item__up as up_search_item,

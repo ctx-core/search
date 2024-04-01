@@ -28,7 +28,7 @@ test('search_result$__new|query_: blank -> present|single run', async ()=>{
 		query: '',
 		data: []
 	})
-	query_._ = 'query-value'
+	query_.set('query-value')
 	equal(search_store$(), {
 		done: false,
 		loading: true,

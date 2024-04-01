@@ -8,7 +8,7 @@ export function search_item__down(params) {
 	const { a_, idx_ } = params
 	const a = a_() ?? []
 	const idx = next_idx_(a.length, idx_() ?? 0)
-	idx_._ = idx
+	idx_.set(idx)
 }
 export {
 	search_item__down as down_search_item,

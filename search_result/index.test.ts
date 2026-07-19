@@ -1,10 +1,10 @@
-import { install, type InstalledClock } from '@sinonjs/fake-timers'
+import { install, type Clock } from '@sinonjs/fake-timers'
 import { sleep } from 'ctx-core/function'
 import { sig_ } from 'ctx-core/rmemo'
 import { test } from 'uvu'
 import { equal } from 'uvu/assert'
 import { search_result__new } from '../index.js'
-let clock:InstalledClock
+let clock:Clock
 test.before(()=>{
 	clock = install()
 })
